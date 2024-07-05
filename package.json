@@ -1,12 +1,20 @@
 {
   "name": "ocean-jornada-backend-julho-2024",
   "version": "1.0.0",
-  "description": "Projeto Jornada backend Julho/2024 com NodeJS e Express, no curso do Samsung Ocean.",
+  "description": "Projeto da Jornada Backend Julho/2024 com NodeJS e Express, no curso do Samsung Ocean.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
